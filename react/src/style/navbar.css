@@ -1,0 +1,132 @@
+/* body { 
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f68b1e;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-family: 600;
+}
+
+.navbar-brand img {
+    height: 40px;
+}
+
+.navbar-search input {
+    padding: 10px;
+    width: 500px;
+    border: none;
+    border-radius: 3px;
+}
+
+.navbar-search button {
+    padding: 10px;
+    border: none;
+    margin-left: 2px;
+    background-color: #fff;
+    color: #f68b1e;
+    font-weight: bold;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.navbar-link a,
+li {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 10px;
+    font-weight: bold;
+    list-style: none;
+}
+    */
+
+    body {
+        font-family: 'Arial', sans-serif;
+        padding: 0;
+    }
+
+    /* App.css or a new shared CSS file */
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.app-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh; /* Full viewport height */
+}
+
+.main-content {
+    flex: 1; /* Take up remaining space */
+}
+
+    
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #3a3a3a; /* Darker background for contrast */
+        padding: 15px 30px; /* Increased padding for a spacious feel */
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    }
+    
+    .navbar-brand img {
+        height: 40px;
+    }
+    
+    .navbar-search input {
+        padding: 10px;
+        width: 300px; /* Reduced width for better layout */
+        border: 1px solid #ddd; /* Soft border for input */
+        border-radius: 5px;
+        transition: border-color 0.3s;
+    }
+    
+    .navbar-search input:focus {
+        border-color: #f68b1e; /* Highlight on focus */
+        outline: none;
+    }
+    
+    .navbar-search button {
+        padding: 10px 15px;
+        border: none;
+        margin-left: 8px;
+        background-color: #f68b1e; /* Matching button color */
+        color: #fff; /* Changed text color for better visibility */
+        font-weight: bold;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s; /* Smooth hover effect */
+    }
+    
+    .navbar-search button:hover {
+        background-color: #d76e1b; /* Slightly darker on hover */
+    }
+    
+    .navbar-link {
+        display: flex; /* Flex for consistent alignment */
+        align-items: center;
+    }
+    
+    .navbar-link a {
+        text-decoration: none;
+        color: #fff; /* White text for contrast */
+        margin: 0 15px; /* More space between links */
+        font-weight: bold;
+        transition: color 0.3s; /* Smooth color transition */
+    }
+    
+    .navbar-link a:hover {
+        color: #f68b1e; /* Color change on hover */
+    }
+    
+
+
